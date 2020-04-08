@@ -162,5 +162,5 @@ http://creativecommons.org/licenses/by-sa/3.0/
 
 ## Contact us 联系作者
 
-- 资料所有： <a href="http://www.deltaww.com/about/drc_ch.aspx?secID=5&pid=4&tid=1&hl=zh-TW">台达研究院Delta Research Center</a>
+- 资料所有: <a href="http://www.deltaww.com/about/drc_ch.aspx?secID=5&pid=4&tid=1&hl=zh-TW">台达研究院Delta Research Center</a>
 - Email: <a href="mailto:cchieh.shao@deltaww.com">cchieh.shao@deltaww.com</a>
