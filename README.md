@@ -1,6 +1,9 @@
 # DRCD Simplified Chinese 
 > This is simplified Chinese version of DRCD SQuAD1.0 Dataset. 
 > 这是简体中文版的DRCD的SQuAD1.0数据集
+>
+>
+> 以下是繁体DRCD数据集原始版说明
 
 台达阅读理解资料集 Delta Reading Comprehension Dataset (DRCD) 属于通用领域繁体中文机器阅读理解资料集。
 本资料集期望成为适用于迁移学习之标准中文阅读理解资料集。
@@ -26,7 +29,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
         - id : <String> : "1"表示为人工标注的答案，"2"以上为人工答题的答案
         - text : <string> : 答案内容
 
-## Example 数据举例(举例为原数据集繁体版本)：
+## Example 数据举例：
 
   ```json
 {
