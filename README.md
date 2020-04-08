@@ -26,7 +26,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
         - id : <String> : "1"表示为人工标注的答案，"2"以上为人工答题的答案
         - text : <string> : 答案内容
 
-## Example 数据举例：
+## Example 数据举例(举例为原数据集繁体版本)：
 
   ```json
 {
