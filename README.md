@@ -2,12 +2,12 @@
 > This is simplified Chinese version of DRCD SQuAD1.0 Dataset. 
 > 这是简体中文版的DRCD的SQuAD1.0数据集
 
-​	台达阅读理解资料集 Delta Reading Comprehension Dataset (DRCD) 属于通用领域繁体中文机器阅读理解资料集。
-​	本资料集期望成为适用于迁移学习之标准中文阅读理解资料集。
-​	本资料集从2,108篇维基条目中整理出10,014篇段落，并从段落中标注出30,000多个问题
+台达阅读理解资料集 Delta Reading Comprehension Dataset (DRCD) 属于通用领域繁体中文机器阅读理解资料集。
+本资料集期望成为适用于迁移学习之标准中文阅读理解资料集。
+本资料集从2,108篇维基条目中整理出10,014篇段落，并从段落中标注出30,000多个问题
 
-​	关于资料集之更详细资讯请洽询论文：
-​	For more information please refer to Paper https://arxiv.org/abs/1806.00920
+关于资料集之更详细资讯请洽询论文：
+For more information please refer to Paper https://arxiv.org/abs/1806.00920
 
 ## Data format 数据格式
 
