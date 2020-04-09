@@ -2,7 +2,8 @@
 > This is simplified Chinese version of DRCD SQuAD1.0 Dataset. 
 > 这是简体中文版的DRCD的SQuAD1.0数据集
 >
->
+> WARNING: 尚未使用run_squad.py程序对简体中文版本的可用性进行验证。请小心使用！
+
 > 以下是繁体DRCD数据集原始版说明
 
 台达阅读理解资料集 Delta Reading Comprehension Dataset (DRCD) 属于通用领域繁体中文机器阅读理解资料集。
@@ -11,6 +12,31 @@
 
 关于资料集之更详细资讯请洽询论文：
 For more information please refer to Paper https://arxiv.org/abs/1806.00920
+
+## DRCD数据问题
+
+DRCD数据在应用到Google/Research/Bert/SQuAD[1]中的`run_squad.py`程序时，似乎给出了`list index out of range`。
+
+目前认为错误的原因是数据的`answer_start`在个别数据中出现了错误。
+
+通过修改`run_squad.py`文件相应部分，使用`try`与`except`进行debug。
+
+以下为debug修改后程序举例：
+
+```python
+try:
+    start_position = char_to_word_offset[answer_offset]
+except:
+    print(answer)
+try:
+    end_position = char_to_word_offset[answer_offset + answer_length - 1]
+except:
+    print(answer)
+```
+
+[1]Google/Research/Bert/SQuAD link:https://github.com/google-research/bert
+
+**Tip: 将可能在近期给出订正版本**
 
 ## Data format 数据格式
 
