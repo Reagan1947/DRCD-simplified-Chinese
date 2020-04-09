@@ -15,7 +15,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
 
 ## DRCD数据问题
 
-DRCD数据在应用到Google/Research/Bert/SQuAD ^[1] 中的`run_squad.py`程序时，似乎给出了`list index out of range`。
+DRCD数据在应用到Google/Research/Bert/SQuAD <sup>[1]</sup> 中的`run_squad.py`程序时，似乎给出了`list index out of range`。
 
 目前认为错误的原因是数据的`answer_start`在个别数据中出现了错误。
 
@@ -36,7 +36,7 @@ except:
 
 [1]Google/Research/Bert/SQuAD Link: https://github.com/google-research/bert
 
-**/TIP: 将可能在近期给出订正版本**
+**TIP: 将可能在近期给出订正版本**
 
 ## Data format 数据格式
 
