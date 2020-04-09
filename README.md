@@ -1,5 +1,5 @@
 # DRCD Simplified Chinese 
-> This is simplified Chinese version of DRCD SQuAD1.0 Dataset. 
+> This is simplified Chinese version of DRCD SQuAD1.0 Dataset.</br>
 > 这是简体中文版的DRCD的SQuAD1.0数据集
 >
 > WARNING: 尚未使用run_squad.py程序对简体中文版本的可用性进行验证。请小心使用！
