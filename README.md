@@ -17,7 +17,7 @@ For more information please refer to Paper https://arxiv.org/abs/1806.00920
 
 DRCD数据在应用到Google/Research/Bert/SQuAD <sup>[1]</sup> 中的`run_squad.py`程序时，似乎给出了`list index out of range`。
 
-目前认为错误的原因是数据的`answer_start`在个别数据中出现了错误。
+目前认为错误的原因是数据的`answer_start`在个别数据中出现了错误,未正确的标记出答案开始的位置。
 
 通过修改`run_squad.py`文件相应部分，使用`try`与`except`进行debug。
 
